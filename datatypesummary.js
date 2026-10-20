@@ -33,3 +33,27 @@ const myFunction = function() {
 }
 
 console.log(typeof anotherId); // "symbol"
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack (Primitive) ,Heap (Non Primitive)
+let MyInsta = "notyour.prahlad"
+let anotherInsta = MyInsta;
+
+anotherInsta = "thats.myId"
+
+console.log(MyInsta);
+console.log(anotherInsta);
+
+let userOne = {
+    email: "prahladmandal324@gmail.com",
+    upi: "prahladmandal324@upi"
+}
+
+let userTwo = userOne;
+userTwo.email = "okaysen123@gmail.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
